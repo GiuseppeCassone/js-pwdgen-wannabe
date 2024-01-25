@@ -15,4 +15,12 @@ let numero;
 numero = prompt("Il tuo numero preferito?")
 
 
-document.getElementById('password').innerHTML = `La tua password generata è ${nome}${cognome}${colore}${numero}`
+document.getElementById('nome').innerHTML = nome;
+
+document.getElementById('cognome').innerHTML = cognome;
+
+document.getElementById('colore').innerHTML = colore;
+
+document.getElementById('numero').innerHTML = numero;
+
+document.getElementById('password').innerHTML = `${nome}${cognome}${colore}${numero}`
